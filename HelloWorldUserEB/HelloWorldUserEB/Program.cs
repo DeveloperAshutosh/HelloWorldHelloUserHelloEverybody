@@ -3,12 +3,18 @@ using System.Transactions;
 
 namespace HelloWorldUserEB
 {
-    class Program
+  public class Program
     {
-        static void Main(string[] args)
+      public static ConsoleKey KeyPressed;
+        public static void Main()
         {
             Console.WriteLine("Hello World!");
-            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+            while (KeyPressed != ConsoleKey.Enter) 
+                {
+                    Console.WriteLine("\nPress the Enter key to end this program...");
+                    keyPressed = Console.ReadKey().Key;
+            }
+
         }
     }
 }

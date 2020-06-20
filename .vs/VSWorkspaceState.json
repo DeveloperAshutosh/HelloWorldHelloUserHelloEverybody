@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HelloWorldUserEB",
+    "\\HelloWorldUserEB\\HelloWorldUserEB"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\HelloWorldUserEB\\HelloWorldUserEB\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
